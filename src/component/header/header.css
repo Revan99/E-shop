@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  position: sticky;
+  z-index: 100000;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 6.5rem;
+  background-color: var(--primary);
+  padding: 0 4.5rem;
+}
+.header div {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  height: 6rem;
+  width: 17rem;
+}
+
+.header__logo img {
+  height: 100%;
+  width: 100%;
+}
