@@ -4,7 +4,7 @@ import {
   DELETE_PRODUCT,
 } from "../constants/productConstants/productConstants";
 
-export const productReducer = (state, action) => {
+export const productReducer = (state = [], action) => {
   switch (action.type) {
     case CREATE_PRODUCT:
       return { ...state, [action.payload.name]: action.payload };

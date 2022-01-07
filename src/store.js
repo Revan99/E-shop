@@ -9,6 +9,7 @@ import data from "./data.json";
 const initialState = {
   stores: data.stores,
   products: data.items,
+  categories: data.categories,
 };
 
 const rootReducer = combineReducers({

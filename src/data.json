@@ -5,6 +5,7 @@
       "name": "Defacto",
       "location": "erbil",
       "logo": "https://dfcdn.defacto.com.tr/Assets/dist/images/logo.png",
+      "categories": ["Shirt", "T-Shirt", "Jacket", "Jeans"],
       "cover": "https://cdn.aiidatapro.net/media/c8/73/97/t780x490/c8739759634603e28fda1315dadc612d.jpg"
     },
     {
@@ -12,6 +13,7 @@
       "name": "Nike",
       "location": "erbil",
       "logo": "https://logo.clearbit.com/nike.com?size=200&format=png",
+      "categories": ["Shirt", "T-Shirt", "Jacket", "Jeans"],
       "cover": "https://cdn.filepicker.io/api/file/cDrXJjSrQcW98iod86wm"
     },
     {
@@ -19,6 +21,7 @@
       "name": "Lacoste ",
       "location": "suli",
       "logo": "https://brandslogos.com/wp-content/uploads/images/large/lacoste-logo-1.png",
+      "categories": ["Shirt", "T-Shirt", "Jacket", "Jeans"],
       "cover": "https://retailinasia.com/wp-content/uploads/2016/09/Lacoste-Store-Retail-in-Asia.jpg"
     },
     {
@@ -26,6 +29,7 @@
       "name": "Puma",
       "location": "duhok",
       "logo": "https://logo.clearbit.com/puma.com?size=200&format=png",
+      "categories": ["Shirt", "T-Shirt", "Jacket", "Jeans"],
       "cover": "https://retaildesignblog.net/wp-content/uploads/2011/05/Puma-Store-Tokyo-Playner-Franz-Studio-002-720x455.jpg"
     },
     {
@@ -33,6 +37,7 @@
       "name": "Adidas",
       "location": "suli",
       "logo": "https://logo.clearbit.com/adidas-group.com?size=200&format=png",
+      "categories": ["Shirt", "T-Shirt", "Jacket", "Jeans"],
       "cover": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fdeab2089-71ff-42f7-ae33-ab3a4d077519.jpg?fit=scale-down&source=next&width=700"
     },
     {
@@ -40,6 +45,7 @@
       "name": "Fila",
       "location": "suli",
       "logo": "https://logo.clearbit.com/fila.com?size=200&format=png",
+      "categories": ["Shirt", "T-Shirt", "Jacket", "Jeans"],
       "cover": "https://upload.wikimedia.org/wikipedia/commons/8/8b/HK_Yuen_Long_%E5%BD%A2%E9%BB%9E_Yoho_Mall_shop_%E6%96%90%E6%A8%82_Fila_clothing_Sept_2018_SSG.jpg"
     },
     {
@@ -47,6 +53,7 @@
       "name": "Levi's",
       "location": "erbil",
       "logo": "https://logo.clearbit.com/levi.com?size=200&format=png",
+      "categories": ["Shirt", "T-Shirt", "Jacket", "Jeans"],
       "cover": "http://doyson.com/wp-content/uploads/2019/06/levis-Rimini.jpg"
     },
     {
@@ -54,6 +61,7 @@
       "name": "Zara",
       "location": "duhok",
       "logo": "https://logo.clearbit.com/zara.com?size=200&format=png",
+      "categories": ["Shirt", "T-Shirt", "Jacket", "Jeans"],
       "cover": "https://cdn.romania-insider.com/cdn/ff/BhZyAbpZDdVdxPlOXRwBekuTsIL5pTsLx8jGEHsRCJg/1557983853/public/2019-05/zara_store_-_shutterstock.jpg"
     }
   ],
@@ -61,7 +69,7 @@
     "Defacto": [
       {
         "id": 1,
-        "category": "T-Shirt",
+        "category": "Shirt",
         "itemName": "Slim Fit Polo Neck Patterned T-Shirt",
         "price": 21,
         "image": "https://dfcdn.defacto.com.tr/1/U3887AZ_21SM_GN762_01_01.jpg"
@@ -977,5 +985,27 @@
         "image": "https://dfcdn.defacto.com.tr/7/N0504AZ_21SP_BN256_01_02.jpg"
       }
     ]
+  },
+  "categories": {
+    "T-Shirt": {
+      "id": 1,
+      "name": "T-Shirt",
+      "logo": "https://sslimages.shoppersstop.com/sys-master/images/ha3/h2c/16221952344094/S21710BTEE055_YELLOW.jpg_2000Wx3000H"
+    },
+    "Shirt": {
+      "id": 2,
+      "name": "Shirt",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52JgIXBm_R6PISeEZJ2uOhtNixHJI2du6kSkuo-5Sz9bLCi3AVu0TWzM0VlYd2q-NiCY&usqp=CAU"
+    },
+    "Jacket": {
+      "id": 3,
+      "name": "Jacket",
+      "logo": "https://4.imimg.com/data4/MY/MW/MY-658732/mens-jacket-500x500.jpg"
+    },
+    "Jeans": {
+      "id": 3,
+      "name": "Jeans",
+      "logo": "https://media.gq.com/photos/60fb256f19a385ea1742392d/master/w_1280%2Cc_limit/Levi's_501_'93_straight_jeans.jpg"
+    }
   }
 }
