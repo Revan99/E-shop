@@ -16,7 +16,9 @@ const Button = ({
     <button
       onClick={onClick}
       style={style ? style : defaultStyle}
-      className={`btn ${className}`}
+      className={`text-xl px-6 py-3 ${
+        backgroundColor ? backgroundColor : "bg-primary-2"
+      } ${color ? color : "text-white"} rounded-lg ${className}`}
     >
       {text}
     </button>
