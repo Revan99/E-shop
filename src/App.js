@@ -2,15 +2,15 @@ import "./App.css";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 
 import Header from "./component/header/Header";
+import ProtectedRoute from "./component/protectedRoute/ProtectedRoute";
+import HomePage from "./pages/home/HomePage";
 
 function App() {
   return (
-    <div className="App">
-      {" "}
+    <div className="box-border flex flex-col ">
       <Router>
-        <Header />
         <Switch>
-          <h1 style={{ color: "white" }}>hello from react</h1>
+          <ProtectedRoute path="/" Component={HomePage} />
         </Switch>
       </Router>
     </div>

@@ -13,6 +13,10 @@ module.exports = {
           3: "#969696",
         },
       },
+      spacing: {
+        100: "30rem",
+        110: "40rem",
+      },
     },
   },
   plugins: [],

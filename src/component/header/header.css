@@ -1,6 +1,8 @@
 .header {
   display: flex;
   position: sticky;
+  position: -webkit-sticky;
+  top: 0; /* required */
   z-index: 100000;
   width: 100%;
   justify-content: space-between;
