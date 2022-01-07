@@ -5,12 +5,15 @@ import Header from "./component/header/Header";
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <Switch>
-        <h1> hello from react</h1>
-      </Switch>
-    </Router>
+    <div className="App">
+      {" "}
+      <Router>
+        <Header />
+        <Switch>
+          <h1 style={{ color: "white" }}>hello from react</h1>
+        </Switch>
+      </Router>
+    </div>
   );
 }
 

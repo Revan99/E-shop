@@ -1,8 +1,10 @@
 :root {
   --primary: #00897b;
+  --secondary: #282828;
 }
 .App {
   text-align: center;
   width: 100vw;
   height: 100vh;
+  background-color: var(--secondary);
 }
