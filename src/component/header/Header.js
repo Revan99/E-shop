@@ -7,7 +7,7 @@ import logo from "../../assets/images/e-shop-logo.svg";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header bg-primary-1 ">
       <Link to="/" className="header__logo">
         <img src={logo} alt="app logo" />
       </Link>
