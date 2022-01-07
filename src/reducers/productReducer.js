@@ -14,5 +14,7 @@ export const productReducer = (state, action) => {
       return { stateCopy };
     case DELETE_PRODUCT:
       return { ...state, [action.payload.name]: action.payload };
+    default:
+      return state;
   }
 };

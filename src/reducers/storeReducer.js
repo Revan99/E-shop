@@ -4,7 +4,7 @@ import {
   EDIT_STORE,
 } from "../constants/storeConstants/storeConstants";
 
-export const createStoreReducer = (state, action) => {
+export const storeReducer = (state, action) => {
   switch (action.type) {
     case CREATE_STORE:
       return { ...state, [action.payload.name]: action.payload };
@@ -14,5 +14,7 @@ export const createStoreReducer = (state, action) => {
       return { stateCopy };
     case EDIT_STORE:
       return { ...state, [action.payload.name]: action.payload };
+    default:
+      return state;
   }
 };
