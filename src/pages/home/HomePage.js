@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
 import illustration from "../../assets/images/illustration.png";
 import Button from "../../component/button/Button";
-import "./header.css";
+import "./home.css";
 const HomePage = () => {
   const history = useHistory();
   return (
