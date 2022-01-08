@@ -35,7 +35,7 @@ const Products = () => {
                 imageSrc={product.image}
                 text={product.itemName}
                 key={`${product.id}_${index}`}
-                path={`/stores/${key.toLowerCase()}/${product.category.toLowerCase()}/${product.itemName
+                path={`/stores/${key.toLowerCase()}/${product.category.toLowerCase()}/products/${product.itemName
                   .split(" ")
                   .join("")
                   .toLowerCase()}`}
