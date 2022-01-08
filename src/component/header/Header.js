@@ -16,11 +16,16 @@ const Header = () => {
         <img src={logo} alt="app logo" className="w-full h-full " />
       </Link>
       {location.pathname === "/" && (
-        <div>
+        <div className="flex gap-3">
           <Button
             text="Create store"
             backgroundColor="bg-secondary-2"
             onClick={() => history.push("/create-store")}
+          />
+          <Button
+            text="Stores table"
+            backgroundColor="bg-secondary-2"
+            onClick={() => history.push("/stores-table")}
           />
         </div>
       )}
