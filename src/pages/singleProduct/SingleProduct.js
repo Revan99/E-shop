@@ -14,7 +14,7 @@ const SingleProduct = () => {
   );
   return (
     <div className="w-full h-full bg-secondary-1 p-10">
-      <div className="w-full h-full border-secondary-2 shadow-xl border rounded-3xl flex">
+      <div className="w-full h-full border-secondary-2 shadow-xl border rounded-3xl flex flex-col md:flex-row overflow-hidden">
         <div className="flex-1 text-white p-3 flex flex-col justify-evenly">
           <div>
             <h1 className="text-3xl mb-3">Product Name: </h1>
