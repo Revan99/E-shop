@@ -9,6 +9,7 @@ import SingleStore from "./pages/singleStore/SingleStore";
 import Products from "./pages/products/Products";
 import StoreProducts from "./pages/storeProducts/StoreProducts";
 import StoresTable from "./pages/storeTable/StoreTable";
+import SingleProduct from "./pages/singleProduct/SingleProduct";
 
 function App() {
   const state = useSelector((state) => state);
@@ -20,6 +21,10 @@ function App() {
           <ProtectedRoute exact path="/" Component={HomePage} />{" "}
           <ProtectedRoute path="/stores" exact Component={Stores} />
           <ProtectedRoute path="/products" exact Component={Products} />
+          <ProtectedRoute
+            path="/stores/:name/:category/products/:product"
+            Component={SingleProduct}
+          />
           <ProtectedRoute path="/stores/:name" exact Component={SingleStore} />
           <ProtectedRoute
             path="/stores/:name/:category"
