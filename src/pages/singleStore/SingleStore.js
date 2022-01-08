@@ -1,13 +1,21 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
+import { useParams } from "react-router-dom";
 import Card from "../../component/card/Card";
-
-const Stores = () => {
-  const stores = useSelector((state) => state.stores);
+const SingleStore = () => {
+  const { stores, categories } = useSelector((state) => ({
+    stores: state.stores,
+    categories: state.categories,
+  }));
+  const params = useParams();
+  const singleStore = stores.find(
+    (store) => store.name.toLowerCase() === params.name
+  );
   const [search, setSearch] = useState("");
   const handleSearch = (e) => {
     setSearch(e.target.value);
   };
+  console.log(singleStore);
   return (
     <div className="w-full h-full bg-secondary-1 p-10 flex flex-col">
       <div className=" mb-10  p-1">
@@ -20,14 +28,14 @@ const Stores = () => {
         />
       </div>
       <div className="grid gap-10  grid-cols-1 md:grid-cols-3 lg:grid-cols-4   w-full h-full overflow-auto">
-        {stores.map((store) => {
-          if (!store.name.toLowerCase().includes(search.toLowerCase())) return;
+        {singleStore.categories.map((category) => {
+          if (!category.toLowerCase().includes(search.toLowerCase())) return;
           return (
             <Card
-              imageSrc={store.logo}
-              text={store.name}
-              key={store.id}
-              path={`/stores/${store.name.toLowerCase()}`}
+              imageSrc={categories[category].logo}
+              text={categories[category].name}
+              key={categories[category].id}
+              path={`/stores/${params.name}/${category.toLowerCase()}`}
             />
           );
         })}
@@ -36,4 +44,4 @@ const Stores = () => {
   );
 };
 
-export default Stores;
+export default SingleStore;
