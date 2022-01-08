@@ -18,6 +18,7 @@ const SingleStore = () => {
   console.log(singleStore);
   return (
     <div className="w-full h-full bg-secondary-1 p-10 flex flex-col">
+      <h1 className="text-white text-7xl mb-2">{singleStore.name}</h1>
       <div className=" mb-10  p-1">
         <input
           type="text"

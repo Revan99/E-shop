@@ -8,6 +8,7 @@ import Stores from "./pages/stores/Stores";
 import SingleStore from "./pages/singleStore/SingleStore";
 import Products from "./pages/products/Products";
 import StoreProducts from "./pages/storeProducts/StoreProducts";
+import StoresTable from "./pages/storeTable/StoreTable";
 
 function App() {
   const state = useSelector((state) => state);
@@ -24,6 +25,7 @@ function App() {
             path="/stores/:name/:category"
             Component={StoreProducts}
           />
+          <ProtectedRoute path="/stores-table" Component={StoresTable} />
         </Switch>
       </Router>
     </div>
