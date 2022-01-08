@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Defacto",
       "location": "erbil",
-      "logo": "https://dfcdn.defacto.com.tr/Assets/dist/images/logo.png",
+      "logo": "http://www.marketna.net/wp-content/uploads/2017/04/defacto-logo.jpg",
       "categories": ["Shirt", "T-Shirt", "Jacket", "Jeans"],
       "cover": "https://cdn.aiidatapro.net/media/c8/73/97/t780x490/c8739759634603e28fda1315dadc612d.jpg"
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "name": "Nike",
       "location": "erbil",
-      "logo": "https://logo.clearbit.com/nike.com?size=200&format=png",
+      "logo": "https://i1.wp.com/sportsfinding.com/wp-content/uploads/2020/02/nike-swoosh-wikipedia.jpg?fit=580%2C350&ssl=1&resize=1280%2C720",
       "categories": ["Shirt", "T-Shirt", "Jacket", "Jeans"],
       "cover": "https://cdn.filepicker.io/api/file/cDrXJjSrQcW98iod86wm"
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "name": "Lacoste ",
       "location": "suli",
-      "logo": "https://brandslogos.com/wp-content/uploads/images/large/lacoste-logo-1.png",
+      "logo": "https://logos-world.net/wp-content/uploads/2020/09/Lacoste-Logo-2011-present.jpg",
       "categories": ["Shirt", "T-Shirt", "Jacket", "Jeans"],
       "cover": "https://retailinasia.com/wp-content/uploads/2016/09/Lacoste-Store-Retail-in-Asia.jpg"
     },
@@ -44,7 +44,7 @@
       "id": 6,
       "name": "Fila",
       "location": "suli",
-      "logo": "https://logo.clearbit.com/fila.com?size=200&format=png",
+      "logo": "https://cdn.dribbble.com/users/1161517/screenshots/7463720/fila_logo_still_2x.gif?compress=1&resize=400x300",
       "categories": ["Shirt", "T-Shirt", "Jacket", "Jeans"],
       "cover": "https://upload.wikimedia.org/wikipedia/commons/8/8b/HK_Yuen_Long_%E5%BD%A2%E9%BB%9E_Yoho_Mall_shop_%E6%96%90%E6%A8%82_Fila_clothing_Sept_2018_SSG.jpg"
     },

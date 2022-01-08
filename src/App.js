@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 import ProtectedRoute from "./component/protectedRoute/ProtectedRoute";
 import HomePage from "./pages/home/HomePage";
+import Test from "./pages/Text";
 
 function App() {
   const state = useSelector((state) => state);
@@ -12,7 +13,8 @@ function App() {
     <div className="box-border flex flex-col ">
       <Router>
         <Switch>
-          <ProtectedRoute path="/" Component={HomePage} />
+          <ProtectedRoute exact path="/" Component={HomePage} />
+          <ProtectedRoute path="/stores" Component={Test} />
         </Switch>
       </Router>
     </div>
